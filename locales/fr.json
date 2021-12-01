@@ -438,6 +438,8 @@
     "nextStep": "Future",
     "previous": "PREVIOUS",
     "next": "NEXT",
+    "open": "EXPAND",
+    "close": "CLOSE",
     "timelines": [
       {
         "time": "2018 Q2",
@@ -576,13 +578,59 @@
         ]
       },
       {
-        "time": "2021",
+        "time": "2021 Q1-Q3",
         "description": [
           "Vite Bridge: Trustless & Universal Cross-chain Transfer Protocol",
           "Vite DAO: Community governance of Vite’s public chain and the ViteX exchange",
           "Vite Protocol Updates: Public chain protocol optimization and upgrades",
           "ViteX Exchange: Consistent listing of digital assets on ViteX",
           "Vite Techies Club and Vite Developer Committee: Hackathon and Grant opportunities"
+        ]
+      },
+      {
+        "time": "2021 Q4",
+        "description": [
+          "Network upgrade to allow deployment of larger contracts",
+          "Deploying BSC bridge on Testnet"
+        ]
+      },
+      {
+        "time": "2022 Q1",
+        "description": [
+          "Solidity++ 0.8 beta (on Testnet)",
+          "ViteBridge: Deploying ETH bridge on Testnet",
+          "ViteX gateway incentive plan",
+          "Vite.org improvement"
+        ]
+      },
+      {
+        "time": "2022 Q2",
+        "description": [
+          "First network upgrade of 2022",
+          "Solidity++ 0.8 release (on Mainnet)",
+          "ViteBridge: Deploying Avalanche bridge on Testnet",
+          "ViteX market orders",
+          "Direct deposit for Vite App trading wallet",
+          "Continuing to onboard new ViteX gateways"
+        ]
+      },
+      {
+        "time": "2022 Q3",
+        "description": [
+          "ViteBridge: Continual improvement of tooling and expansion of scope",
+          "ViteBridge: Deploying BSC bridge on Mainnet",
+          "ViteX: Replacing some ViteX gateways with ViteBridge",
+          "Decentralized ViteX API on Vite nodes",
+          "Continuing to onboard new ViteX gateways"
+        ]
+      },
+      {
+        "time": "2022 Q4",
+        "description": [
+          "Second network upgrade of 2022",
+          "ViteBridge: Continual improvement of tooling and expansion of scope. Command-line tool for a third-party to deploy bridge",
+          "One-click Node deployment",
+          "Continuing to onboard new ViteX gateways"
         ]
       }
     ]
