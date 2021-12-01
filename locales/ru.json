@@ -595,6 +595,14 @@
         ]
       },
       {
+        "time": "EVERY QUARTER",
+        "description": [
+          "Organize at least one Vuilder hackathon",
+          "Fund several new projects via ecosystem grants as governed by Vuilder DAO",
+          "Jumpstart Vuilder projects in the areas of Open Finance, NFT, Gaming, Metaverse, and other on-chain use cases (Examples: staking pool service, new wallets, Vite Naming Service, AMM, NFT marketplace, no-loss lotteries, and more)"
+        ]
+      },
+      {
         "time": "2022 Q1",
         "description": [
           "Solidity++ 0.8 beta (on Testnet)",
@@ -631,14 +639,6 @@
           "ViteBridge: Continual improvement of tooling and expansion of scope. Command-line tool for a third-party to deploy bridge",
           "One-click Node deployment",
           "Continuing to onboard new ViteX gateways"
-        ]
-      },
-      {
-        "time": "IN EVERY QUARTER, WE WILL",
-        "description": [
-          "Organize at least one Vuilder hackathon",
-          "Fund several new projects via ecosystem grants as governed by Vuilder DAO",
-          "Jumpstart Vuilder projects in the areas of Open Finance, NFT, Gaming, Metaverse, and other on-chain use cases (Examples: staking pool service, new wallets, Vite Naming Service, AMM, NFT marketplace, no-loss lotteries, and more)"
         ]
       }
     ]
