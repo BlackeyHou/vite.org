@@ -10,7 +10,8 @@
       <li class="is-common is-finish" v-if="type === 'completed'">
         <div class="desc-wrapper">
           <div class="desc special-item" @click="clickPrevious">
-            <p> {{ this.previousOpen ? $t(`roadmap.close`) : $t(`roadmap.open`) }} <img src="~/assets/images/roadmap/previous.svg"/></p>
+            <p v-if="this.previousOpen"> {{$t(`roadmap.close`) }} <img src="~/assets/images/roadmap/next.svg"/></p>
+            <p v-else>{{ $t(`roadmap.previous`) }} <img src="~/assets/images/roadmap/previous.svg"/></p>
           </div>
         </div>
       </li>
@@ -41,13 +42,14 @@
           </div>
         </div>
       </li>
-      <!-- <li class="is-common is-next" v-if="type === 'nextStep'">
+      <li class="is-common is-next" v-if="type === 'nextStep'">
         <div class="desc-wrapper">
           <div class="desc special-item" @click="clickNext">
-            <p> {{ $t(`roadmap.next`) }}  <img src="~/assets/images/roadmap/next.svg"/></p>
+            <p v-if="this.nextOpen"> {{$t(`roadmap.close`) }} <img src="~/assets/images/roadmap/previous.svg"/></p>
+            <p v-else>{{ $t(`roadmap.next`) }} <img src="~/assets/images/roadmap/next.svg"/></p>
           </div>
         </div>
-      </li> -->
+      </li>
     </ul>
   </div>
 </template>
@@ -67,7 +69,7 @@ export default {
   computed: {
     list() {
       if (this.type === 'completed') {
-        return this.previousOpen ? this.timeLines : this.timeLines.slice(7);
+        return this.previousOpen ? this.timeLines : this.timeLines.slice(11);
       }
       if (this.type === 'nextStep') {
         return this.nextOpen ? this.timeLines : this.timeLines.slice(0, 2);
@@ -100,7 +102,7 @@ $dot-size-inner: 0.75rem;
 $timelineCommonColor: #919AA3;
 
 .timeline {
-  padding-right: 380px;
+  padding-right: 300px;
   @include mobile {
     padding-right: 280px;
   }

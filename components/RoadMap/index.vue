@@ -36,19 +36,19 @@ export default {
   data() {
     return {
       tabParams: 'inProgress',
-      tabs: ['completed', 'inProgress']
+      tabs: ['completed', 'inProgress', 'nextStep']
     };
   },
   computed: {
     list() {
       if (this.tabParams === 'completed') {
-        return this.getTimelines().slice(0, 11);
+        return this.getTimelines().slice(0, 12);
       }
       if (this.tabParams === 'inProgress') {
-        return this.getTimelines().slice(11, 12);
+        return this.getTimelines().slice(12, 13);
       }
       if (this.tabParams === 'nextStep') {
-        return this.getTimelines().slice(-1);
+        return this.getTimelines().slice(13);
       }
       return [];
     },
@@ -57,13 +57,13 @@ export default {
     tableList(item) {
       for (let i = 0; i < this.tabs.length; i++) {
         if (item === 'completed') {
-          return this.getTimelines().slice(0, 11);
+          return this.getTimelines().slice(0, 12);
         }
         if (item === 'inProgress') {
-          return this.getTimelines().slice(11, 12);
+          return this.getTimelines().slice(12, 13);
         }
         if (item === 'nextStep') {
-          return this.getTimelines().slice(-1);
+          return this.getTimelines().slice(13);
         }
       }
     },
@@ -93,13 +93,16 @@ export default {
 @import "~assets/vars";
 
 section {
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   .roadmap-title {
     text-align: center;
     padding-top: 109px;
     @include mobile {
       padding-top: 30px;
     }
+  }
+  .is-hidden-touch {
+    padding-right: 150px;
   }
   .roadmap__timeline {
     margin-top: 50px;
