@@ -45,10 +45,10 @@ export default {
         return this.getTimelines().slice(0, 12);
       }
       if (this.tabParams === 'inProgress') {
-        return this.getTimelines().slice(12, 13);
+        return this.getTimelines().slice(12, 14);
       }
       if (this.tabParams === 'nextStep') {
-        return this.getTimelines().slice(13);
+        return this.getTimelines().slice(14);
       }
       return [];
     },
@@ -60,10 +60,10 @@ export default {
           return this.getTimelines().slice(0, 12);
         }
         if (item === 'inProgress') {
-          return this.getTimelines().slice(12, 13);
+          return this.getTimelines().slice(12, 14);
         }
         if (item === 'nextStep') {
-          return this.getTimelines().slice(13);
+          return this.getTimelines().slice(14);
         }
       }
     },
