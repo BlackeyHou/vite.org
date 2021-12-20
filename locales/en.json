@@ -164,15 +164,15 @@
         }
       },
       "vitex": {
-        "title": "Truly Decentralized Exchange",
+        "title": "High Performance Order-book Decentralized Exchange",
         "desc": [
-          "The world's first DEX born on DAG; a decentralized open finance platform.",
-          "Participate in decentralized governance by simply holding the VX coins.",
-          "Traders enjoy 100% refund of trading fees in the form of dividends.",
-          "Trade mining, stake mining, referral mining, liquidity mining, and list as mining. Mine your VX coins in up to 5 ways every day.",
-          "Anybody can set up a DEX on ViteX and list tokens, as easy as creating a store on eBay.",
-          "Instant, on-chain order matching makes the DEX trading experience mirror that of centralized exchanges",
-          "No KYC. Your information only stays with yourself."
+          "The world’s first DEX built on DAG.",
+          "Traders enjoy trading fee rebate in the form of dividends.",
+          "Five ways to mine VX tokens: trade, stake, referral, market-making and listing.",
+          "Instant order-matching with on-chain security guarantees.",
+          "Anyone can set up a gateway operator on ViteX to earn listing and trading fees.",
+          "KYC-less process means 100% user privacy.",
+          "Decentralized governance via VX token."
         ],
         "btnGroup": {
           "toViteX": "Trade on ViteX",
@@ -1254,7 +1254,7 @@
             "2. Vite utilizes asynchronous sending and receiving of transactions, resulting in fast transaction speeds with confirmations in seconds to create low-cost smart contracts. ",
             "3. Vite is a fee-less transaction model. It’s free!",
             "4. Vite utilizes a novel snapshot chain that strengthens the security of all transactions by eliminating vulnerabilities associated with DAG.",
-            "5. Vite features a built-in, truly decentralized exchange."
+            "5. Vite features a built-in, High Performance Order-book Decentralized Exchange."
           ]
         },
         {
@@ -1616,8 +1616,8 @@
     "tech": {
       "title": "Bridging Every Blockchain in a Multi-Chain Future",
       "features": {
-        "dag": "Directed Acyclic Graphs (DAG)",
-        "throughput": "Fast Transactions Per Second (TPS)",
+        "dag": "Directed Acyclic Graph (DAG)",
+        "throughput": "High Transactions Per Second (TPS)",
         "confirm": "Instant Confirmations",
         "nofee": "Zero-Fee Transactions",
         "snapshotchain": "Snapshot Chain Technology",
@@ -1635,7 +1635,7 @@
       ]
     },
     "dex": {
-      "title": "Truly Decentralized Exchange",
+      "title": "High Performance Order-book Decentralized Exchange",
       "features": {
         "onChainMatch": "On-Chain Order Matching",
         "onChainSettle": "On-Chain Settlement",
