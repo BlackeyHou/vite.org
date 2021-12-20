@@ -1617,7 +1617,7 @@
       "title": "Bridging Every Blockchain in a Multi-Chain Future",
       "features": {
         "dag": "Directed Acyclic Graph (DAG)",
-        "throughput": "High Transactions Per Second (TPS)",
+        "throughput": "High TPS",
         "confirm": "Instant Confirmations",
         "nofee": "Zero-Fee Transactions",
         "snapshotchain": "Snapshot Chain Technology",
